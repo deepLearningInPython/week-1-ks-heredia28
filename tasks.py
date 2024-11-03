@@ -50,7 +50,7 @@ print("All tests passed.")
 
 # Your code here:
 # -----------------------------------------------
-def ReLu(array, cutoff = 0):
+def ReLU(array, cutoff = 0):
     return np.maximum(array, cutoff)
 
 # -----------------------------------------------
@@ -68,6 +68,6 @@ def ReLu(array, cutoff = 0):
 
 def neural_net_layer(matrix, vector):
     result = np.dot(matrix, vector)
-    return ReLu(result)
+    return ReLU(result)
 
 # ------------------------------------------
